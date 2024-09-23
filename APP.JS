@@ -388,7 +388,7 @@ function movieOverview(isFlag = false) {
               <h2>Credit/Debit Card</h2>
               <form id="payment-form" action="" method="get">
                   <label for="card-number">Card Number:</label>
-                  <input type="numbers" id="card-number" name="card-number" placeholder="Enter 16 digit card number" min="16" onKeyPress="if(this.value.length==16) return false" required>
+                  <input type="number" id="card-number" name="card-number" placeholder="Enter 16 digit card number" min="16" onKeyPress="if(this.value.length==16) return false" required>
   
                   <label for="expiration-date">Expiration Date:</label>
                   <input type="date" id="expiration-date" name="expiration-date" required>
